@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shyan's Photography Portfolio</title>
+<style>
+  body {
+    background-color: #000;
+    color: #0ff; /* Cyan color */
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #111;
+    padding: 20px;
+  }
+  h1 {
+    margin: 0;
+  }
+  .container {
+    padding: 20px;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    justify-items: center;
+  }
+  .gallery img {
+    max-width: 100%;
+    height: auto;
+  }
+  footer {
+    background-color: #111;
+    padding: 10px;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Shyan's Photography Portfolio</h1>
+  </header>
+  
+  <div class="container">
+    <h2>About Me</h2>
+    <p>I'm passionate about photography and love capturing moments that tell stories.</p>
+  </div>
+  
+  <div class="container">
+    <h2>Portfolio</h2>
+    <div class="gallery">
+      <img src="Haikyuu PC _ Desktop Wallpaper.jpg" alt="Photo 1">
+      <img src="download.jpg" alt="Photo 2">
+      <img src="download (2).jpg" alt="Photo 3">
+      <!-- Add more images here -->
+    </div>
+  </div>
+  
+  <div class="container">
+    <h2>Contact Me</h2>
+    <p>You can reach me at shyan@example.com</p>
+  </div>
+  
+  <footer>
+    <p>&copy; 2023 Shyan's Photography Portfolio. All rights reserved.</p>
+  </footer>
+</body>
+</html>
